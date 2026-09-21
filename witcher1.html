@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witcher | The Witcher (2007)</title>
+  <meta name="description" content="The Witcher (2007): el primer videojuego de la saga, con Geralt de Rivia en la ciudad de Vizima.">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/videojuegos.css">
+</head>
+<body class="tema-w1">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-header" aria-label="The Witcher - Ir al inicio">
+        <img src="img/the_witcher_header.png" alt="The Witcher" width="500" height="133">
+      </a>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="has-submenu">
+            <span class="menu-parent active" tabindex="0" role="button" aria-haspopup="true">Videojuegos</span>
+            <button class="submenu-toggle" type="button" aria-label="Mostrar opciones de videojuegos" aria-expanded="false"></button>
+            <ul class="submenu">
+              <li><a href="witcher1.html" class="active" aria-current="page">The Witcher</a></li>
+              <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+              <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+            </ul>
+          </li>
+          <li><a href="serie.html">Serie</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <section class="vj-hero">
+      <div class="vj-hero-fondo" role="img" aria-label="Ilustración de una ciudad medieval de noche con la silueta de un brujo en primer plano"></div>
+      <div class="contenedor vj-hero-contenido">
+        <h1 class="titulo-juego titulo-tw1"><img src="img/Titulo%20tw1.png" alt="The Witcher" width="940" height="308"></h1>
+        <p class="subtitulo">Vizima, una peste y un brujo sin memoria</p>
+        <a class="boton boton-trailer" href="https://www.youtube.com/watch?v=vCsu1CueLgo" target="_blank" rel="noopener noreferrer">▶ Ver Trailer</a>
+      </div>
+    </section>
+
+    <section class="vj-carrusel" id="carrusel" data-carrusel aria-roledescription="carrusel" aria-label="Características del juego">
+      <article class="vj-slide s1 activo" data-slide role="group" aria-roledescription="diapositiva" aria-label="1 de 3">
+        <div class="contenedor">
+          <div class="vj-slide-texto">
+            <h2>Asesino de monstruos profesional</h2>
+            <p>Geralt de Rivia no es un héroe por elección: es un oficio. Entrenado desde niño y modificado para resistir venenos y reaccionar más rápido que cualquier guerrero, recorre los caminos aceptando contratos que nadie más se atreve a tomar. En el juego, cada criatura exige preparación: hay que estudiar sus puntos débiles, elegir entre la espada de acero o la de plata y combinar Signos y pociones antes de que empiece la pelea.</p>
+          </div>
+        </div>
+      </article>
+      <article class="vj-slide s2" data-slide role="group" aria-roledescription="diapositiva" aria-label="2 de 3">
+        <div class="contenedor">
+          <div class="vj-slide-texto">
+            <h2>Fantasía madura</h2>
+            <p>Aquí no hay un mal absoluto que derrotar. Vizima está atravesada por la peste, el miedo y el conflicto entre humanos y no humanos, y cada facción cree tener la razón. El juego habla de prejuicio, poder y culpa con un tono adulto y sin explicaciones fáciles, y deja que el jugador se ensucie las manos con dilemas donde ninguna opción es del todo limpia.</p>
+          </div>
+        </div>
+      </article>
+      <article class="vj-slide s3" data-slide role="group" aria-roledescription="diapositiva" aria-label="3 de 3">
+        <div class="contenedor">
+          <div class="vj-slide-texto">
+            <h2>Decisiones y consecuencias</h2>
+            <p>Lo que eliges hoy puede cobrarse mucho después. Ayudar a un personaje, callar una verdad o tomar partido en un conflicto cambia cómo te tratan los demás y qué caminos quedan abiertos más adelante. El juego casi nunca te avisa cuál era la opción correcta, y por eso cada partida se siente como una historia propia.</p>
+          </div>
+        </div>
+      </article>
+
+      <button class="vj-flecha vj-anterior" type="button" data-prev aria-label="Diapositiva anterior">&#8249;</button>
+      <button class="vj-flecha vj-siguiente" type="button" data-next aria-label="Diapositiva siguiente">&#8250;</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo" aria-label="The Witcher - Inicio">
+            <img src="img/medallon.webp" alt="" width="41" height="40">
+            <span>The Witcher</span>
+          </a>
+          <p>Sitio informativo sobre el universo del brujo Geralt de Rivia: libros, videojuegos y serie. Proyecto realizado para una materia universitaria de desarrollo web.</p>
+        </div>
+
+        <div>
+          <h3>Explorar</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="serie.html">Serie</a></li>
+            <li><a href="libros.html">Libros</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Videojuegos</h3>
+          <ul>
+            <li><a href="witcher1.html">The Witcher</a></li>
+            <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+            <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Más información</h3>
+          <ul>
+            <li><a href="https://thewitcher.com" target="_blank" rel="noopener noreferrer">Sitio oficial de The Witcher</a></li>
+            <li><a href="contacto.html">Escríbenos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-inferior">
+        <p>&copy; <span id="year">2026</span> Proyecto académico sin fines de lucro. The Witcher es una marca de CD PROJEKT S.A. y la saga literaria pertenece a Andrzej Sapkowski. Las ilustraciones de este sitio son vectoriales y de creación propia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/videojuegos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

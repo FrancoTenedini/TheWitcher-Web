@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witcher | The Witcher 3: Wild Hunt</title>
+  <meta name="description" content="The Witcher 3: Wild Hunt: la aventura de Geralt en un mundo abierto, la edición Remastered y la expansión Songs of the Past.">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/videojuegos.css">
+</head>
+<body class="tema-w3">
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-header" aria-label="The Witcher - Ir al inicio">
+        <img src="img/the_witcher_header.png" alt="The Witcher" width="500" height="133">
+      </a>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="has-submenu">
+            <span class="menu-parent active" tabindex="0" role="button" aria-haspopup="true">Videojuegos</span>
+            <button class="submenu-toggle" type="button" aria-label="Mostrar opciones de videojuegos" aria-expanded="false"></button>
+            <ul class="submenu">
+              <li><a href="witcher1.html">The Witcher</a></li>
+              <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+              <li><a href="witcher3.html" class="active" aria-current="page">The Witcher 3: Wild Hunt</a></li>
+            </ul>
+          </li>
+          <li><a href="serie.html">Serie</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <section class="w3-hero" id="w3-hero">
+      <div class="w3-hero-fondo" data-parallax role="img" aria-label="Ilustración de un brujo con dos espadas sobre un risco, frente a un sol que se pone detrás de las montañas">
+        <div class="w3-hero-imagen"></div>
+      </div>
+      <div class="w3-hero-sombra"></div>
+      <canvas class="w3-brasas" aria-hidden="true"></canvas>
+
+      <div class="contenedor w3-hero-contenido" data-desvanecer>
+        <h1 class="titulo-juego titulo-tw3"><img src="img/Titulo%20tw3.png" alt="The Witcher 3: Wild Hunt Remastered" width="600" height="391"></h1>
+        <p class="w3-subtitulo">Un brujo, una cacería y un continente al borde de la guerra.</p>
+        <a class="boton boton-trailer reveal" href="https://www.youtube.com/watch?v=nYwe_WHARdc" target="_blank" rel="noopener noreferrer">▶ Ver Trailer</a>
+      </div>
+
+      <button class="w3-scroll" type="button" data-scroll="camino" aria-label="Bajar a la siguiente sección">
+        <span>Desliza</span>
+        <span class="w3-scroll-raton"><span></span></span>
+      </button>
+    </section>
+
+    <section class="w3-camino" id="camino">
+      <div class="w3-camino-contenido">
+        <span class="w3-etiqueta reveal">Wild Hunt Remastered</span>
+        <h2 class="texto-plata reveal" data-retraso="150">Emprenda el camino</h2>
+        <div class="w3-linea reveal" data-retraso="300"></div>
+        <p class="reveal" data-retraso="450">Pocas aventuras han dejado una marca tan profunda en el género. The Witcher 3: Wild Hunt es considerado uno de los mejores RPG de la historia por algo simple y muy difícil de lograr: cada historia importa, incluso la más pequeña. Una misión secundaria puede tocarte más que la trama principal de muchos otros juegos.</p>
+        <p class="reveal" data-retraso="600">Su mundo abierto no se recorre para tachar una lista, sino para descubrir. Pantanos, aldeas, ciudades libres e islas heladas esconden contratos, secretos y personajes que se quedan contigo, desde Ciri y Yennefer hasta Triss y Vesemir.</p>
+        <p class="reveal" data-retraso="750">La edición Remastered conserva esa esencia y renueva lo que se ve: texturas de mayor calidad para entornos, personajes y monstruos, vegetación más densa, iluminación y efectos visuales rediseñados y tecnologías gráficas actuales. Se moderniza la forma de mirar el Continente, sin cambiar la obra que lo hizo grande.</p>
+      </div>
+    </section>
+
+    <section class="w3-regresar" id="regresar">
+      <div class="w3-regresar-imagen reveal-izq">
+        <img src="img/tw3/geralt tw3 png.png" alt="Geralt de Rivia con su espada de plata en la mano" width="1163" height="680" loading="lazy">
+      </div>
+      <div class="w3-regresar-texto">
+        <span class="w3-etiqueta reveal">Songs of the Past</span>
+        <h2 class="texto-plata reveal" data-retraso="150">Regresar al camino</h2>
+        <p class="reveal" data-retraso="300">Han pasado once años desde que Geralt salió a buscar a Ciri, y el Continente vuelve a llamar. Songs of the Past es una nueva expansión que llevará a los jugadores a Letten, una región de tradiciones rurales y festivales donde bajo la calma se esconde un secreto oscuro.</p>
+        <p class="reveal" data-retraso="450">Para quien lo jugó en 2015 será un reencuentro con los caminos, las tabernas y los monstruos que llevan en la memoria. Para quien llega ahora, la mejor excusa para empezar. Afila la espada, revisa el inventario y prepárate: todavía hay historias por contar.</p>
+      </div>
+    </section>
+
+    <section class="w3-carrusel" id="carrusel" data-carrusel data-autoplay="9000" aria-roledescription="carrusel" aria-label="Aventura, combate, mundo y expansiones de The Witcher 3">
+      <div class="w3-slides">
+        <article class="w3-slide activo w3-fondo-1" data-slide role="group" aria-roledescription="diapositiva" aria-label="1 de 5">
+          <div class="w3-slide-texto">
+            <span class="w3-num" aria-hidden="true">01</span>
+            <h3>Conviértete en un brujo</h3>
+            <p>Ser brujo empieza con una infancia que casi nadie sobrevive. Los aprendices atraviesan pruebas y mutaciones que endurecen el cuerpo, agudizan los sentidos y los apartan del resto de la gente. A ese entrenamiento se suman los Signos, hechizos simples que empujan enemigos, encienden llamas, levantan escudos, atrapan criaturas o nublan la mente de un rival. Geralt no es mago ni soldado: es algo que hace falta y que nadie quiere cerca.</p>
+          </div>
+        </article>
+        <article class="w3-slide invertido w3-fondo-2" data-slide role="group" aria-roledescription="diapositiva" aria-label="2 de 5">
+          <div class="w3-slide-texto">
+            <span class="w3-num" aria-hidden="true">02</span>
+            <h3>Domina el combate dinámico</h3>
+            <p>Cada pelea es un pequeño rompecabezas. La espada de acero sirve contra humanos, la de plata contra monstruos, y los Signos marcan el ritmo del combate. Las pociones y los aceites preparan al brujo antes de la batalla, y esquivar, rodar o contraatacar a tiempo decide quién sigue en pie. La mejor victoria suele ser la que se planeó antes de desenvainar.</p>
+          </div>
+        </article>
+        <article class="w3-slide w3-fondo-3" data-slide role="group" aria-roledescription="diapositiva" aria-label="3 de 5">
+          <div class="w3-slide-texto">
+            <span class="w3-num" aria-hidden="true">03</span>
+            <h3>Explora un mundo abierto de fantasía gigante</h3>
+            <p>Velen, con sus pantanos y aldeas olvidadas; Novigrad, una gran ciudad libre y peligrosa; las islas de Skellige, con sus fiordos y clanes guerreros; y la fortaleza de Kaer Morhen, refugio de los brujos. El Continente es enorme y está lleno de vida: cada colina esconde una cueva, un campamento, un monstruo o una historia que nadie te obligó a buscar.</p>
+          </div>
+        </article>
+        <article class="w3-slide invertido w3-fondo-4" data-slide role="group" aria-roledescription="diapositiva" aria-label="4 de 5">
+          <div class="w3-slide-texto">
+            <span class="w3-num" aria-hidden="true">04</span>
+            <h3>Forja tu historia legendaria</h3>
+            <p>Tus decisiones no se quedan en el diálogo. Elegir a quién ayudar, a quién perdonar y qué callar puede cambiar el destino de personajes queridos, el equilibrio entre reinos y la forma en que termina la historia de Ciri. Hay varios finales posibles, y cada uno refleja el camino que fuiste construyendo, muchas veces sin darte cuenta.</p>
+          </div>
+        </article>
+        <article class="w3-slide w3-fondo-5" data-slide role="group" aria-roledescription="diapositiva" aria-label="5 de 5">
+          <div class="w3-slide-texto">
+            <span class="w3-num" aria-hidden="true">05</span>
+            <h3>El camino continúa con las expansiones</h3>
+            <p>Hearts of Stone y Blood and Wine son mucho más que contenido extra: cada una cuenta una historia completa, con personajes memorables y misiones que compiten con las mejores del juego base. Hearts of Stone es un relato oscuro sobre un pacto y sus consecuencias; Blood and Wine lleva a Geralt a Toussaint, un ducado soleado donde también se esconden secretos y crímenes. Muchos jugadores las consideran entre las mejores expansiones que ha tenido un RPG.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="w3-controles">
+        <button class="w3-flecha" type="button" data-prev aria-label="Diapositiva anterior">&#8249;</button>
+        <div class="w3-puntos"><button class="w3-punto" type="button" data-dot aria-label="Ir a la diapositiva 1"></button><button class="w3-punto" type="button" data-dot aria-label="Ir a la diapositiva 2"></button><button class="w3-punto" type="button" data-dot aria-label="Ir a la diapositiva 3"></button><button class="w3-punto" type="button" data-dot aria-label="Ir a la diapositiva 4"></button><button class="w3-punto" type="button" data-dot aria-label="Ir a la diapositiva 5"></button></div>
+        <span class="w3-contador" data-contador aria-live="off">01 / 05</span>
+        <button class="w3-flecha" type="button" data-next aria-label="Diapositiva siguiente">&#8250;</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo" aria-label="The Witcher - Inicio">
+            <img src="img/medallon.webp" alt="" width="41" height="40">
+            <span>The Witcher</span>
+          </a>
+          <p>Sitio informativo sobre el universo del brujo Geralt de Rivia: libros, videojuegos y serie. Proyecto realizado para una materia universitaria de desarrollo web.</p>
+        </div>
+
+        <div>
+          <h3>Explorar</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="serie.html">Serie</a></li>
+            <li><a href="libros.html">Libros</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Videojuegos</h3>
+          <ul>
+            <li><a href="witcher1.html">The Witcher</a></li>
+            <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+            <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Más información</h3>
+          <ul>
+            <li><a href="https://thewitcher.com" target="_blank" rel="noopener noreferrer">Sitio oficial de The Witcher</a></li>
+            <li><a href="contacto.html">Escríbenos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-inferior">
+        <p>&copy; <span id="year">2026</span> Proyecto académico sin fines de lucro. The Witcher es una marca de CD PROJEKT S.A. y la saga literaria pertenece a Andrzej Sapkowski. Las ilustraciones de este sitio son vectoriales y de creación propia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/videojuegos.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

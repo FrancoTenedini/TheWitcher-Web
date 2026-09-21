@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witcher | Inicio</title>
+  <meta name="description" content="Sitio informativo sobre el universo de The Witcher: videojuegos, serie y libros.">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.179.1/build/three.module.js"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-header" aria-label="The Witcher - Ir al inicio">
+        <img src="img/the_witcher_header.png" alt="The Witcher" width="500" height="133">
+      </a>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <ul class="menu">
+          <li><a href="index.html" class="active" aria-current="page">Inicio</a></li>
+          <li class="has-submenu">
+            <span class="menu-parent" tabindex="0" role="button" aria-haspopup="true">Videojuegos</span>
+            <button class="submenu-toggle" type="button" aria-label="Mostrar opciones de videojuegos" aria-expanded="false"></button>
+            <ul class="submenu">
+              <li><a href="witcher1.html">The Witcher</a></li>
+              <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+              <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+            </ul>
+          </li>
+          <li><a href="serie.html">Serie</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="galeria.html">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- Hero 3D: reemplaza el contenido de .modelo-3d por el modelo cuando esté disponible. -->
+    <section class="hero hero-modelo" aria-label="Presentación del modelo 3D">
+      <div class="hero-neblina" aria-hidden="true"></div>
+      <div class="modelo-3d" id="modelo3D" aria-label="Modelo 3D del Medallón del Lobo"></div>
+
+      <a class="indicador-scroll" href="#presentacion" aria-label="Continuar hacia la presentación">
+        <span></span>
+      </a>
+    </section>
+
+    <section class="seccion presentacion-home" id="presentacion">
+      <div class="contenedor presentacion-home-contenido">
+        <p class="presentacion-kicker">Monstruos, política y destino</p>
+        <h1 class="texto-plata">The Witcher</h1>
+        <p class="presentacion-descripcion">Descubre el mundo de Geralt de Rivia, el brujo que caza monstruos por dinero y termina en el centro de una guerra entre reinos. Videojuegos, serie y libros en un solo lugar.</p>
+
+        <div class="hero-botones">
+          <a href="witcher3.html" class="boton">Explorar videojuegos</a>
+          <a href="galeria.html" class="boton boton-plata">Ver galería</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion oscura elige-inicio">
+      <div class="contenedor">
+        <div class="titulo-seccion">
+          <h2>Elige por dónde empezar</h2>
+          <p>Tres formas de entrar al mismo universo.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card-imagen">
+              <img src="img/Home/Games.jpg" alt="Montañas y bosque bajo la luna, ilustración de la saga de videojuegos" width="600" height="400" loading="lazy">
+            </div>
+            <div class="card-cuerpo">
+              <h3>Videojuegos</h3>
+              <p>Desde el primer juego de 2007 hasta la aclamada Cacería Salvaje de 2015: la trilogía de rol de CD Projekt RED.</p>
+              <a href="witcher3.html" class="enlace-flecha">Conocer los juegos</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-imagen">
+              <img src="img/Home/serie geralt comico.jpg" alt="Serie de The Witcher" width="600" height="400" loading="lazy">
+            </div>
+            <div class="card-cuerpo">
+              <h3>Serie</h3>
+              <p>La adaptación de Netflix con Geralt, Yennefer y Ciri: temporadas, películas animadas y una precuela.</p>
+              <a href="serie.html" class="enlace-flecha">Ver la serie</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="card-imagen">
+              <img src="img/Home/Books.jpg" alt="Portada de libro The Witcher" width="600" height="400" loading="lazy">
+            </div>
+            <div class="card-cuerpo">
+              <h3>Libros</h3>
+              <p>La obra original de Andrzej Sapkowski: dos libros de relatos, cinco novelas de la saga y una novela independiente.</p>
+              <a href="libros.html" class="enlace-flecha">Leer sobre los libros</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion universo" id="universo">
+      <div class="contenedor">
+        <div class="titulo-seccion universo-titulo">
+          <h2>Universo The Witcher</h2>
+          <p>Todo lo que conviene saber antes de entrar al Continente.</p>
+        </div>
+
+        <div class="universo-bloque introduccion">
+          <div class="universo-intro-texto">
+            <h3 class="universo-subtitulo">Un continente en guerra y un oficio en extinción</h3>
+            <p>The Witcher nació en los libros del escritor polaco Andrzej Sapkowski. Cuenta la historia de Geralt de Rivia, un brujo: un cazador de monstruos entrenado desde niño y mutado para enfrentar criaturas que los ejércitos no pueden detener.</p>
+            <p>Con los años, la saga saltó a los videojuegos de CD Projekt RED y a una serie de Netflix. Cada versión cuenta su propia historia, pero todas comparten el mismo mundo: reinos que se disputan tierras, magos con planes propios y gente común que paga para sobrevivir.</p>
+          </div>
+          <aside class="cita" aria-label="Ficha rápida">
+            <h3>Ficha rápida</h3>
+            <ul class="ficha-rapida">
+              <li><span>Autor</span> Andrzej Sapkowski</li>
+              <li><span>Primer libro</span> 1992</li>
+              <li><span>Primer juego</span> 2007</li>
+              <li><span>Primera temporada</span> 2019</li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="universo-bloque">
+          <div class="universo-encabezado">
+            <h3>Lo básico del mundo del brujo</h3>
+            <p>Cuatro ideas que se repiten en los libros, los juegos y la serie.</p>
+          </div>
+
+          <div class="datos">
+            <div class="dato">
+              <h4>El Continente</h4>
+              <p>Un mundo de reinos del Norte, el Imperio de Nilfgaard al sur y tierras salvajes entre ambos.</p>
+            </div>
+            <div class="dato">
+              <h4>Los Signos</h4>
+              <p>Cinco hechizos simples (Aard, Igni, Quen, Yrden y Axii) que los brujos combinan con la espada.</p>
+            </div>
+            <div class="dato">
+              <h4>Los contratos</h4>
+              <p>Un brujo cobra por matar monstruos, pero el trabajo empieza investigando qué es la criatura y cómo se la vence.</p>
+            </div>
+            <div class="dato">
+              <h4>Acero y plata</h4>
+              <p>Dos espadas: la de acero para personas y animales, y la de plata para los monstruos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="universo-bloque">
+          <div class="universo-encabezado">
+            <h3>Las escuelas de brujos</h3>
+            <p>Cada escuela entrena a sus brujos con un estilo distinto.</p>
+          </div>
+
+          <div class="escuelas">
+            <div class="escuela">
+              <img class="escuela-imagen" src="img/Home/Escuela%20del%20Lobo.jpg" alt="Emblema de la Escuela del Lobo" width="1024" height="1024" loading="lazy">
+              <h4>Lobo</h4>
+              <p>La escuela de Geralt, con base en la fortaleza de Kaer Morhen.</p>
+            </div>
+            <div class="escuela">
+              <img class="escuela-imagen" src="img/Home/Escuela%20del%20Gato.png" alt="Emblema de la Escuela del Gato" width="1254" height="1254" loading="lazy">
+              <h4>Gato</h4>
+              <p>Conocida por un estilo sigiloso y agresivo.</p>
+            </div>
+            <div class="escuela">
+              <img class="escuela-imagen" src="img/Home/Escuela%20del%20grifo.png" alt="Emblema de la Escuela del Grifo" width="1254" height="1254" loading="lazy">
+              <h4>Grifo</h4>
+              <p>Famosa por su dominio de los Signos.</p>
+            </div>
+            <div class="escuela">
+              <img class="escuela-imagen" src="img/Home/Escuela%20del%20Oso.jpg" alt="Emblema de la Escuela del Oso" width="1024" height="1024" loading="lazy">
+              <h4>Oso</h4>
+              <p>Asociada a la armadura pesada.</p>
+            </div>
+            <div class="escuela">
+              <img class="escuela-imagen" src="img/Home/Escuela%20de%20la%20Serpiente.jpg" alt="Emblema de la Escuela de la Víbora" width="1024" height="1024" loading="lazy">
+              <h4>Víbora</h4>
+              <p>Con reputación de asesinos discretos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banner">
+      <div class="contenedor">
+        <h2>Mira el mundo de cerca</h2>
+        <p>Doce ilustraciones de paisajes, criaturas y objetos del universo del brujo.</p>
+        <a href="galeria.html" class="boton">Abrir la galería</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo" aria-label="The Witcher - Inicio">
+            <img src="img/medallon.webp" alt="" width="41" height="40">
+            <span>The Witcher</span>
+          </a>
+          <p>Sitio informativo sobre el universo del brujo Geralt de Rivia: libros, videojuegos y serie. Proyecto realizado para una materia universitaria de desarrollo web.</p>
+        </div>
+
+        <div>
+          <h3>Explorar</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="serie.html">Serie</a></li>
+            <li><a href="libros.html">Libros</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Videojuegos</h3>
+          <ul>
+            <li><a href="witcher1.html">The Witcher</a></li>
+            <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+            <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Más información</h3>
+          <ul>
+            <li><a href="https://thewitcher.com" target="_blank" rel="noopener noreferrer">Sitio oficial de The Witcher</a></li>
+            <li><a href="contacto.html">Escríbenos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-inferior">
+        <p>&copy; <span id="year">2026</span> Proyecto académico sin fines de lucro. The Witcher es una marca de CD PROJEKT S.A. y la saga literaria pertenece a Andrzej Sapkowski. Las ilustraciones de este sitio son vectoriales y de creación propia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="js/modelo3d.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

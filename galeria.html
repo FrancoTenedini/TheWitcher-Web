@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witcher | Galería</title>
+  <meta name="description" content="Galería de imágenes del universo de The Witcher con visor ampliado.">
+  <meta name="theme-color" content="#0a0a0b">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/favicon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Marcellus&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#contenido">Saltar al contenido</a>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <a href="index.html" class="logo-header" aria-label="The Witcher - Ir al inicio">
+        <img src="img/the_witcher_header.png" alt="The Witcher" width="500" height="133">
+      </a>
+
+      <button class="menu-button" id="menuButton" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="nav" aria-label="Menú principal">
+        <ul class="menu">
+          <li><a href="index.html">Inicio</a></li>
+          <li class="has-submenu">
+            <span class="menu-parent" tabindex="0" role="button" aria-haspopup="true">Videojuegos</span>
+            <button class="submenu-toggle" type="button" aria-label="Mostrar opciones de videojuegos" aria-expanded="false"></button>
+            <ul class="submenu">
+              <li><a href="witcher1.html">The Witcher</a></li>
+              <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+              <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+            </ul>
+          </li>
+          <li><a href="serie.html">Serie</a></li>
+          <li><a href="libros.html">Libros</a></li>
+          <li><a href="galeria.html" class="active" aria-current="page">Galería</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <section class="page-hero galeria-hero">
+      <div class="contenedor">
+        <h1 class="texto-plata">Galería</h1>
+        <p>Paisajes, objetos y criaturas del universo del brujo. Haz click en una imagen para verla en grande.</p>
+      </div>
+    </section>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="galeria">
+          <button class="galeria-item" type="button" data-titulo="Geralt contra la bestia" aria-label="Ampliar imagen: Geralt contra la bestia">
+            <img src="img/Galeria/Galeria 1.jpg" alt="Ilustración de Geralt de perfil, con el pelo blanco y el ceño fruncido, hundiendo su espada de plata en un monstruo ensangrentado" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Geralt contra la bestia</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="El flautista entre la niebla" aria-label="Ampliar imagen: El flautista entre la niebla">
+            <img src="img/Galeria/Galeria 2.jpeg" alt="Un hombre sentado sobre una roca toca una flauta mientras figuras fantasmales flotan a su alrededor entre la niebla" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">El flautista entre la niebla</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Atardecer sobre el valle" aria-label="Ampliar imagen: Atardecer sobre el valle">
+            <img src="img/Galeria/Galeria 3.jpg" alt="Geralt y una compañera, vistos de espaldas, contemplan desde una colina un cielo rojo anaranjado al atardecer" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Atardecer sobre el valle</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="El Lobo Blanco" aria-label="Ampliar imagen: El Lobo Blanco">
+            <img src="img/Galeria/Galeria 4.jpg" alt="Retrato de Geralt de Rivia en la serie: pelo blanco, ojos amarillos y la empuñadura de la espada sobre el hombro, con un mapa de fondo" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">El Lobo Blanco</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Geralt ante el valle" aria-label="Ampliar imagen: Geralt ante el valle">
+            <img src="img/Galeria/Galeria 5.jpg" alt="Geralt, visto de espaldas, mira un valle boscoso bajo un cielo de nubes cargadas" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Geralt ante el valle</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Toussaint al atardecer" aria-label="Ampliar imagen: Toussaint al atardecer">
+            <img src="img/Galeria/Galeria 6.jpg" alt="Un castillo junto a un lago entre colinas verdes, bajo un sol dorado y nubes suaves" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Toussaint al atardecer</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Yennefer a la luz de las velas" aria-label="Ampliar imagen: Yennefer a la luz de las velas">
+            <img src="img/Galeria/Galeria 7.jpg" alt="Yennefer de Vengerberg, de pelo negro y con gargantilla, mira hacia un lado en una sala oscura iluminada por velas" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Yennefer a la luz de las velas</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="El presagio de los cuervos" aria-label="Ampliar imagen: El presagio de los cuervos">
+            <img src="img/Galeria/Galeria 8.jpg" alt="Un cuervo posado sobre un ahorcado, con otros cuerpos colgados de un árbol frente a un campo y montañas lejanas" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">El presagio de los cuervos</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Contrato cumplido" aria-label="Ampliar imagen: Contrato cumplido">
+            <img src="img/Galeria/Galeria 9.jpeg" alt="Geralt, con la espada goteando sangre, camina junto a una enorme criatura emplumada abatida en un bosque neblinoso" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Contrato cumplido</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Ritual bajo la luna roja" aria-label="Ampliar imagen: Ritual bajo la luna roja">
+            <img src="img/Galeria/Galeria 10.jpeg" alt="Un hombre vestido de negro frente a un caldero humeante bajo una enorme luna roja, rodeado de demonios y criaturas aladas" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Ritual bajo la luna roja</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="La cueva de las raíces" aria-label="Ampliar imagen: La cueva de las raíces">
+            <img src="img/Galeria/Galeria 11.jpeg" alt="Un brujo con una antorcha entra en un túnel formado por raíces retorcidas de color anaranjado" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">La cueva de las raíces</span>
+          </button>
+          <button class="galeria-item" type="button" data-titulo="Los cinco Signos" aria-label="Ampliar imagen: Los cinco Signos">
+            <img src="img/Galeria/Galeria 12.jpeg" alt="Cinco emblemas circulares de colores (naranja, morado, celeste, rojo y verde) que representan los Signos de los brujos" width="800" height="600" loading="lazy">
+            <span class="galeria-titulo">Los cinco Signos</span>
+          </button>
+        </div>
+        <p class="nota-galeria">En el visor puedes usar las flechas del teclado, deslizar en el móvil o presionar Esc para cerrar.</p>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada" aria-hidden="true">
+      <button class="lightbox-boton lightbox-cerrar" id="lightboxClose" type="button" aria-label="Cerrar">&times;</button>
+      <button class="lightbox-boton lightbox-anterior" id="lightboxPrev" type="button" aria-label="Imagen anterior">&#8249;</button>
+      <figure class="lightbox-contenido">
+        <img id="lightboxImage" src="" alt="">
+        <figcaption id="lightboxCaption">Título<span class="lightbox-contador" id="lightboxCounter"></span></figcaption>
+      </figure>
+      <button class="lightbox-boton lightbox-siguiente" id="lightboxNext" type="button" aria-label="Imagen siguiente">&#8250;</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="logo" aria-label="The Witcher - Inicio">
+            <img src="img/medallon.webp" alt="" width="41" height="40">
+            <span>The Witcher</span>
+          </a>
+          <p>Sitio informativo sobre el universo del brujo Geralt de Rivia: libros, videojuegos y serie. Proyecto realizado para una materia universitaria de desarrollo web.</p>
+        </div>
+
+        <div>
+          <h3>Explorar</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="serie.html">Serie</a></li>
+            <li><a href="libros.html">Libros</a></li>
+            <li><a href="galeria.html">Galería</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Videojuegos</h3>
+          <ul>
+            <li><a href="witcher1.html">The Witcher</a></li>
+            <li><a href="witcher2.html">The Witcher 2: Assassins of Kings</a></li>
+            <li><a href="witcher3.html">The Witcher 3: Wild Hunt</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>Más información</h3>
+          <ul>
+            <li><a href="https://thewitcher.com" target="_blank" rel="noopener noreferrer">Sitio oficial de The Witcher</a></li>
+            <li><a href="contacto.html">Escríbenos</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-inferior">
+        <p>&copy; <span id="year">2026</span> Proyecto académico sin fines de lucro. The Witcher es una marca de CD PROJEKT S.A. y la saga literaria pertenece a Andrzej Sapkowski. Las ilustraciones de este sitio son vectoriales y de creación propia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
